@@ -60,10 +60,8 @@ a {
 
 .topbar {
   background: var(--surface);
-  position: sticky;
-  top: 0;
-  z-index: 60;
   border-bottom: 1px solid var(--border);
+  z-index: 60;
 }
 
 .topbar-brand {
@@ -730,6 +728,11 @@ a {
 
   .hero-highlights {
     gap: 12px;
+  }
+
+  .topbar {
+    position: sticky;
+    top: 0;
   }
 }
 
